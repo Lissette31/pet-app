@@ -62,3 +62,15 @@ input[type="range"] {
   width: 150px;
   margin-left: 10px;
 }
+.charts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.charts canvas {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
